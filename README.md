@@ -32,8 +32,8 @@ MObile-view
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/responsive-page-using-css-flexbox-4torT8eody)
+- Live Site URL: [Livesite](https://taupe-cuchufli-417859.netlify.app/)
 
 ## My process
 
