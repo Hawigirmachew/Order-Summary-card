@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  position: relative;
+}
+.order-summary {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+}
+.parent {
+  max-width: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+.image-view {
+  max-width: 300px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.summary {
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title,
+.description {
+  text-align: center;
+  margin: 1em 0;
+}
+.description {
+  line-height: 1.3;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+.plan {
+  padding: 1rem 1rem;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  background-color: rgb(225 213 213 / 40%);
+  margin-block-end: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.plan span {
+  display: block;
+}
+.change {
+  align-self: center;
+}
+.change a {
+  cursor: pointer;
+}
+.change a:hover {
+  text-decoration: none;
+}
+.btn {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+.payment {
+  border: none;
+  padding: 1rem 0;
+  border-radius: 5px;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 22px 27px hsl(245, 69%, 76%);
+}
+.payment:hover {
+  background-color: hsl(223, 47%, 23%);
+}
+.cancel {
+  margin: 2rem 0 0.5rem;
+  border: none;
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+}
+.cancel:hover {
+  color: black;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left:20%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 768px) {
+  .parent {
+    max-width: 400px;
+  }
+  .image-view {
+    max-width: 400px;
+  }
+  .annual {
+    line-height: 1.3;
+    padding-right: 5rem;
+  }
+}
