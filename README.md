@@ -22,14 +22,13 @@ Order summary card
 
 ### Screenshot
 Desktop-view
-
-![desktop-design](https://user-images.githubusercontent.com/88828065/191179440-09bcbcce-e17c-4c52-a8bf-ea105f4855a8.PNG)
-
+![desktop-view](https://user-images.githubusercontent.com/88828065/191181008-b641a4ba-5842-40a9-9a6c-d306059acc04.PNG)
 
 MObile-view
 
 
-![mobile-view](https://user-images.githubusercontent.com/88828065/191179493-17c715d6-e9e4-4e94-a61a-1c8a90b09d8c.PNG)
+![mobile-view](https://user-images.githubusercontent.com/88828065/191181031-b5f1d1ee-1df2-4dc0-a689-b14ecf68a121.PNG)
+
 
 ### Links
 
